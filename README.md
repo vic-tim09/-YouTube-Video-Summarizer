@@ -1,4 +1,4 @@
-# -YouTube-Video-Summarizer
+# YouTube-Video-Summarizer
 
 A Python-based AI project that automatically generates concise summaries of YouTube videos using video transcripts and the Llama Large Language Model through the Groq API.
 
@@ -49,56 +49,13 @@ The user simply provides a YouTube video URL, and the system generates a summary
 
 ```bash
 pip install youtube-transcript-api
-pip install google-generativeai
+pip install groq
 pip install python-dotenv
 ```
 
 Or install all dependencies using:
 
-```bash
-pip install -r requirements.txt
-```
-
 ---
-
-## 🚀 How to Run
-
-### Clone Repository
-
-```bash
-git clone https://github.com/your-username/youtube-video-summarizer.git
-```
-
-### Move to Project Directory
-
-```bash
-cd youtube-video-summarizer
-```
-
-### Create Environment File
-
-Create a `.env` file:
-
-```env
-GOOGLE_API_KEY=your_api_key_here
-```
-
-### Open Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open:
-
-```text
-summerizer.ipynb
-```
-
-Run all cells and provide a YouTube video URL.
-
----
-
 ## 🔮 Future Improvements
 
 - Streamlit Web Application
