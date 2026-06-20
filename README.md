@@ -26,13 +26,12 @@ The user simply provides a YouTube video URL, and the system generates a summary
 - Python
 - Jupyter Notebook
 - YouTube Transcript API
-- Google Gemini API
+- Groq API
+- Llama Model
 - Regular Expressions (Regex)
 - Environment Variables (.env)
 
 ---
-
-## 📂 Project Workflow
 
 ## 📂 Project Workflow
 
@@ -66,10 +65,6 @@ Or install all dependencies using:
 - Video Title and Thumbnail Fetching
 
 ---
-
-## 🎯 Learning Outcomes
-
-Through this project, I learned:
 
 ## 🎯 Learning Outcomes
 
